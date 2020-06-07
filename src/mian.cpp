@@ -11,7 +11,7 @@ int main() {
 	
 	for (int i = 1; i < max; i++) {
 		sprintf_s(mojiretsu, "%d", i);
-		printf_s("%s, ", i % 15 ? i % 3 ? i % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz");
+		printf("%s, ", i % 15 ? i % 3 ? i % 5 ? mojiretsu : "Buzz" : "Fizz" : "FizzBuzz");
 	}
 	system("PAUSE"); 
 }
