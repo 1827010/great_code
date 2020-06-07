@@ -1,4 +1,3 @@
-﻿
 #include <stdio.h>
 #include <stdlib.h>
 #pragma warning(disable : 4996)
@@ -8,7 +7,6 @@
 int main() { 
 
 	const int max = 1000;
-
 	char mojiretsu[1000];
 	
 	for (int i = 1; i < max; i++) {
